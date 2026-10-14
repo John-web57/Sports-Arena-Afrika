@@ -1,0 +1,89 @@
+{
+  "name": "Sports Arena Afrika",
+  "short_name": "SportsArena",
+  "description": "Africa's Premier Sports Hub — Real-time football news, live match centre, EPL & African leagues coverage, and community predictions.",
+  "start_url": "/",
+  "id": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0B0B0F",
+  "theme_color": "#D90429",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "categories": [
+    "sports",
+    "news",
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Live Match Centre",
+      "short_name": "Live Scores",
+      "description": "View live football scores and in-game updates",
+      "url": "/#live-matches",
+      "icons": [{ "src": "/images/logo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Match Tips & Predictions",
+      "short_name": "Tips",
+      "description": "Expert match predictions and odds analysis",
+      "url": "/#match-predictions",
+      "icons": [{ "src": "/images/logo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "League Standings",
+      "short_name": "Tables",
+      "description": "EPL, CAF Champions League, and FKF tables",
+      "url": "/#league-table",
+      "icons": [{ "src": "/images/logo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Upcoming Fixtures",
+      "short_name": "Fixtures",
+      "description": "Schedules and kick-off times",
+      "url": "/#fixtures",
+      "icons": [{ "src": "/images/logo.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/hero-stadium.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Sports Arena Afrika Live Match Centre & News"
+    }
+  ]
+}

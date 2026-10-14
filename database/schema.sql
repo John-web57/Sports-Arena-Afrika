@@ -1,0 +1,2 @@
+-- Database schema is managed by Spring Boot Flyway migrations.
+-- See backend/src/main/resources/db/migration/V1__initial_schema.sql

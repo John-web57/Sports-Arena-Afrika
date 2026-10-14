@@ -1,0 +1,36 @@
+# Sports Arena Afrika - Search Engine Crawlers Policy
+# Primary Domain: https://sportsarenaafrika.com
+# Format: Google Search Essentials & News SEO Standard
+
+User-agent: *
+Allow: /
+Allow: /news/
+Allow: /category/
+Allow: /sports/
+Allow: /authors/
+Allow: /assets/
+Allow: /images/
+
+# Disallow internal administrative and draft management interfaces
+Disallow: /admin
+Disallow: /admin/
+Disallow: /api/
+Disallow: /drafts/
+Disallow: /preview/
+Disallow: /search?*
+
+# Explicit crawling directives for Google News and Media bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+Allow: /news/
+
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /assets/
+
+# Primary XML Sitemaps
+Sitemap: https://sportsarenaafrika.com/sitemap.xml
+Sitemap: https://sportsarenaafrika.com/news-sitemap.xml

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+    
+    <!-- PWA & Mobile Capabilities -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0B0B0F" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="SportsArena" />
+    <meta name="application-name" content="Sports Arena Afrika" />
+    <meta name="msapplication-TileColor" content="#0B0B0F" />
+    <meta name="msapplication-TileImage" content="/images/logo.png" />
+
+    <!-- Primary SEO & Social Graph -->
+    <title>Sports Arena Afrika — Your Home for African Sports News, Analysis & Stories</title>
+    <meta name="description" content="Sports Arena Afrika is a premier digital sports news and publishing platform delivering timely journalism, tactical analysis, athlete interviews, and features across African, Kenyan, and international sports." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Sports Arena Afrika" />
+    <meta property="og:title" content="Sports Arena Afrika — Your Home for African Sports News, Analysis & Stories" />
+    <meta property="og:description" content="Sports Arena Afrika is a premier digital sports news and publishing platform delivering timely journalism, tactical analysis, athlete interviews, and features across African, Kenyan, and international sports." />
+    <meta property="og:image" content="/images/hero-stadium.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sports Arena Afrika — African Sports Journalism, News & Analysis" />
+    <meta name="twitter:description" content="Timely African and international sports news, tactical analysis, exclusive interviews, and in-depth features." />
+    <meta name="twitter:image" content="/images/hero-stadium.jpg" />
+
+    <!-- Structured Data (JSON-LD) for Google Sports & News Ranking -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "NewsMediaOrganization",
+          "@id": "https://sportsarena.africa/#organization",
+          "name": "Sports Arena Afrika",
+          "url": "https://sportsarena.africa",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://sportsarena.africa/images/logo.png"
+          },
+          "sameAs": [
+            "https://twitter.com/SportsArenaAfrica",
+            "https://facebook.com/SportsArenaAfrica",
+            "https://youtube.com/@SportsArenaAfrica"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://sportsarena.africa/#website",
+          "url": "https://sportsarena.africa",
+          "name": "Sports Arena Afrika",
+          "publisher": { "@id": "https://sportsarena.africa/#organization" },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://sportsarena.africa/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#0B0B0F] text-[#F9FAFB] selection:bg-[#D90429] selection:text-white font-['Poppins',sans-serif] antialiased overflow-x-hidden w-full max-w-[100vw]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

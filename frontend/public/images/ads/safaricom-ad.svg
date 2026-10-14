@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="safaricomBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#023b18" />
+      <stop offset="50%" stop-color="#056b2f" />
+      <stop offset="100%" stop-color="#021f0d" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#FBBF24" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#safaricomBg)" />
+
+  <!-- Stadium Lighting & Geometric Lines -->
+  <path d="M0,0 L450,0 L350,300 L0,300 Z" fill="#ffffff" fill-opacity="0.04" />
+  <path d="M600,0 L900,0 L780,300 L480,300 Z" fill="#ffffff" fill-opacity="0.03" />
+  <circle cx="1050" cy="150" r="180" fill="#16A34A" fill-opacity="0.25" filter="url(#glow)" />
+  <circle cx="1050" cy="150" r="130" fill="none" stroke="#22c55e" stroke-width="3" stroke-dasharray="10 8" opacity="0.6" />
+  <circle cx="1050" cy="150" r="90" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6 6" opacity="0.8" />
+
+  <!-- 5G Speed Wave Signal Graphics -->
+  <path d="M960,150 Q1050,70 1140,150" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.7" />
+  <path d="M980,150 Q1050,95 1120,150" fill="none" stroke="#22c55e" stroke-width="4" stroke-linecap="round" />
+  <path d="M1005,150 Q1050,118 1095,150" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" />
+
+  <!-- 5G Badge -->
+  <g transform="translate(1005, 120)">
+    <rect width="90" height="50" rx="14" fill="#000000" fill-opacity="0.5" stroke="#22c55e" stroke-width="2" />
+    <text x="45" y="34" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="26" fill="#ffffff" text-anchor="middle">5G</text>
+  </g>
+
+  <!-- Left Content -->
+  <!-- Brand Medallion -->
+  <g transform="translate(50, 45)">
+    <rect width="64" height="64" rx="16" fill="#000000" fill-opacity="0.4" stroke="#ffffff" stroke-opacity="0.2" />
+    <circle cx="32" cy="32" r="20" fill="#16A34A" />
+    <text x="32" y="38" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="18" fill="#ffffff" text-anchor="middle">S</text>
+  </g>
+
+  <g transform="translate(130, 60)">
+    <rect width="180" height="26" rx="6" fill="#16A34A" fill-opacity="0.4" stroke="#22c55e" stroke-width="1" />
+    <text x="14" y="17" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="11" fill="#86efac" letter-spacing="1.5">OFFICIAL TELECOM PARTNER</text>
+  </g>
+
+  <text x="130" y="125" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="34" fill="#ffffff" letter-spacing="-0.5">
+    SAFARICOM 5G MATCHDAY SPEED PASS
+  </text>
+
+  <text x="130" y="165" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="20" fill="url(#goldGrad)">
+    STREAM MATCHES IN ULTRA 4K WITH ZERO BUFFERING
+  </text>
+
+  <text x="130" y="202" font-family="Arial, sans-serif" font-weight="500" font-size="15" fill="#e2e8f0">
+    Get 10GB Matchday Live Stream Pass for only KES 150. Dial *544# or use M-PESA App.
+  </text>
+
+  <!-- CTA Button Graphic -->
+  <g transform="translate(130, 218)">
+    <rect width="210" height="42" rx="14" fill="#D90429" filter="url(#glow)" />
+    <rect width="210" height="42" rx="14" fill="#D90429" />
+    <text x="95" y="27" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="13" fill="#ffffff" letter-spacing="1">ACTIVATE 5G PASS</text>
+    <path d="M175,21 L185,21 M181,17 L185,21 L181,25" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Football icon watermark -->
+  <circle cx="1130" cy="60" r="30" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.15" />
+  <path d="M1120,52 L1140,52 L1145,67 L1130,76 L1115,67 Z" fill="#ffffff" opacity="0.15" />
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pumaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#450a0a" />
+      <stop offset="50%" stop-color="#7f1d1d" />
+      <stop offset="100%" stop-color="#181822" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#pumaBg)" />
+  <path d="M700,0 L1200,0 L1050,300 L550,300 Z" fill="#ffffff" fill-opacity="0.05" />
+
+  <!-- Speed Boot Silhouette Graphics -->
+  <g transform="translate(920, 80)">
+    <path d="M30,120 C70,120 120,115 160,95 C190,80 200,50 200,40 C190,45 160,55 130,55 C100,55 70,60 50,75 C30,90 20,115 10,120 Z" fill="#ffffff" fill-opacity="0.9" />
+    <path d="M50,125 L160,125 L180,135 L40,135 Z" fill="#EF233C" />
+    <!-- Cleats / Studs -->
+    <rect x="55" y="135" width="8" height="12" fill="#F59E0B" />
+    <rect x="80" y="135" width="8" height="12" fill="#F59E0B" />
+    <rect x="130" y="135" width="8" height="12" fill="#F59E0B" />
+    <rect x="155" y="135" width="8" height="12" fill="#F59E0B" />
+  </g>
+
+  <!-- Left Content -->
+  <g transform="translate(50, 42)">
+    <rect width="64" height="64" rx="16" fill="#000000" fill-opacity="0.5" stroke="#ffffff" stroke-opacity="0.2" />
+    <text x="32" y="42" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="28" fill="#ffffff" text-anchor="middle">P</text>
+  </g>
+
+  <g transform="translate(130, 55)">
+    <rect width="180" height="26" rx="6" fill="#EF4444" fill-opacity="0.4" stroke="#EF4444" stroke-width="1" />
+    <text x="14" y="17" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="11" fill="#fca5a5" letter-spacing="1.5">OFFICIAL KIT PARTNER</text>
+  </g>
+
+  <text x="130" y="122" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="34" fill="#ffffff">
+    PUMA ULTRA 5: CRAFTED FOR AFRICAN PITCHES
+  </text>
+
+  <text x="130" y="162" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="20" fill="#EF4444">
+    BLINDING ACCELERATION • LIGHTEST MATCHDAY BOOT
+  </text>
+
+  <text x="130" y="198" font-family="Arial, sans-serif" font-weight="500" font-size="15" fill="#e2e8f0">
+    Worn by continental champions. Free Express Pan-African shipping to Kenya, Nigeria, South Africa and Ghana.
+  </text>
+
+  <g transform="translate(130, 216)">
+    <rect width="200" height="44" rx="14" fill="#EF233C" />
+    <text x="85" y="28" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="13" fill="#ffffff" letter-spacing="1">SHOP PUMA ULTRA</text>
+    <path d="M160,22 L170,22 M166,18 L170,22 L166,26" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
